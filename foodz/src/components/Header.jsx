@@ -1,11 +1,7 @@
 import React from 'react';
-import "./header.css";
-import logo from '../assets/logo.png';
-import home from '../assets/home.png';
-import search from '../assets/search.png';
-import bag from '../assets/bag.png';
-import user from '../assets/user.png';
-import location from '../assets/map.png';
+import styles from './Header.module.css'; // Import the CSS module
+import { bag, home, logo, map, search, user } from '../assets';
+
 
 
 
@@ -14,11 +10,11 @@ function Header() {
   return (
     <>
       <header>
-        <div className="wrapper">
-        <div className="logo-img">
+        <div className={styles.wrapper}>
+        <div className={styles.logoImg}>
           <img src={logo} alt="Logo" />
         </div>
-        <div className="menu-links">
+        <div className={styles.menuLinks}>
             <ul>
                 <li>
                   <a href="#">
@@ -47,8 +43,8 @@ function Header() {
             </ul>
         </div>
 
-          <div className="location">
-            <a href="#"> <img src={location} alt="Location"className='menuIcon' /> <p>Tirur, Malappuram</p></a>
+          <div className={styles.location}>
+            <a href="#"> <img src={map} alt="Location"className={styles.menuIcon} /> <p>Tirur, Malappuram</p></a>
           </div>
         </div>
       </header>

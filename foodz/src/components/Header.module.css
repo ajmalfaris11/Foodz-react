@@ -1,86 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-header{
+  }
+  
+  header {
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family:"Rubik", sans-serif;
+    font-family: "Rubik", sans-serif;
     height: 70px;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper{
+  }
+  
+  .wrapper {
     width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-.logo-img{
+  }
+  
+  .logoImg {
     width: 100px;
-}
-img{
+  }
+  
+  img {
     width: 100%;
-}
-.menu-links ul{
+  }
+  
+  .menuLinks ul {
     display: flex;
     list-style: none;
-    gap: 10px;
-}
-
-.menu-links ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 16px;
-}
-
-
-li a{
+  }
+  
+  li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;    
+    gap: 5px;
     text-decoration: none;
     color: black;
-}
-
-li img{
+  }
+  
+  li img {
     width: 20px;
-}
-
-.location a {
+  }
+  
+  .location a {
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-}
-
-.location p {
+  }
+  
+  .location p {
     display: inline-block;
     position: relative;
-    color: rgb(96, 96, 96) ; 
+    color: rgb(96, 96, 96);
     font-weight: 500;
-}
-
-.location p::after {
+  }
+  
+  .location p::after {
     content: '';
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -4px; /* Adjust this value to increase or decrease space */
+    bottom: -4px;
     height: 3px;
     background-color: rgb(255, 186, 48);
-}
-
-.menuIcon {
+  }
+  
+  .menuIcon {
     width: 20px;
-}
+  }
+  
+  @media (max-width: 768px) {
+    .menuLinks {
+        display: none;
+    }
+  }
