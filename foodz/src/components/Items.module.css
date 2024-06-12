@@ -1,0 +1,39 @@
+.wrapper{
+    padding-inline: 30px;
+}
+
+.scrollSection {
+    width: 100%;
+}
+
+.scrollContainer {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items:start ;
+}
+
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    margin-bottom: 50px;
+
+}
+
+.item:hover {
+    transform: scale(1.2);
+    box-shadow: border;
+}
+
+.scrollSection img{
+    min-width: 160px;
+    max-width: 100%;
+}
+

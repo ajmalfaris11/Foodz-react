@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Rubik", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+Header {
+    position: fixed;
+    z-index: 2;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

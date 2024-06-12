@@ -15,7 +15,7 @@ import { slide1, slide2, slide3 } from '../assets';
 export default function Carousel() {
   return (
     <>
-     <section  className="wrapper">
+     <section className="wrapper">
      <Swiper
         spaceBetween={20}
         Slides={true}

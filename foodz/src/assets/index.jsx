@@ -13,6 +13,7 @@ import slide2 from "./slide2.png";
 import slide3 from "./slide3.png";
 
 // Catagory images
+import cat1 from "./cat1.png";
 import cat2 from "./cat2.png";
 import cat3 from "./cat3.png";
 import cat4 from "./cat4.png";
@@ -40,6 +41,7 @@ export {
     slide1, 
     slide2, 
     slide3,
+    cat1,
     cat2,
     cat3,
     cat4,
